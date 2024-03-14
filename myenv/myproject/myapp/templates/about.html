@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/about.css">
+</head>
+<body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle"></div>
+      </header>
+
+<!-- Sample Video provided by DesignSupply https://codepen.io/designsupply/pen/zmEWBm -->
+      <!-- Download Video Source and host the file on your own server -->
+      <!-- For example: https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+
+
+
+      <section id="about">
+  <div class="container">
+    <div class="about-content">
+      <h2>About Our Agency</h2>
+      <p>We are a passionate team of travel enthusiasts dedicated to providing unforgettable experiences for our customers.</p>
+      <p>With years of experience in the industry, we strive to offer the best destinations, accommodations, and tours tailored to your preferences.</p>
+      <p>Whether you're seeking adventure, relaxation, or cultural immersion, we've got you covered.</p>
+    </div>
+    <div class="about-image">
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-travel-around-the-world-background-image_2169513.jpg" alt="About Us">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="main">Home</a></li>
+        <li><a href="package">Packages</a></li>
+        <li><a href="destination">Destination</a></li>
+        <li><a href="contact">Contact Us</a></li>
+        <li><a href="about">About Us</a></li>
+      </ul>
+    </div>
+<script>
+    const menuToggle = document.querySelector(".toggle");
+const showcase = document.querySelector(".showcase");
+
+menuToggle.addEventListener("click", () => {
+  menuToggle.classList.toggle("active");
+  showcase.classList.toggle("active");
+});
+</script>
+</body>
+</html>
+
+

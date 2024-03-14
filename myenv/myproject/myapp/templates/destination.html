@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/destination.css">
+</head>
+<body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Travel</h2>
+        <div class="toggle"></div>
+      </header>
+
+<!-- Sample Video provided by DesignSupply https://codepen.io/designsupply/pen/zmEWBm -->
+      <!-- Download Video Source and host the file on your own server -->
+      <!-- For example: https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+<!-- DESTINATION -->
+<section class="dest__wrap">
+  <p class="sub-title__text">OUR PROPOSALS</p>
+  <h2 class="title__text">OUR <span class="--title__text-underline dest-text">DESTINATIONS</span></h2>
+  <article class="dest__list">
+    <!-- Europe -->
+    <div class="dest__item-flex">
+      <div class="dest__item abc dest__europe">
+        <img src="https://leloc90.github.io/loveTravel/assets/images/arch.png" alt="">
+        <div class="dest__item-info">
+          <p class="dest__item-title">Europe</p>
+          <p class="dest__item-text">3 PACKAGES</p>
+        </div>
+        <div class="dest__overlay">
+          <h5>Packages</h5>
+          <ul class="dest__overlay-list">
+            <li class="dest__overlay-item">
+              <a href="package" class="dest__overlay-link">Berlin</a>
+            </li>
+            <li class="dest__overlay-item">
+              <a href="package" class="dest__overlay-link">Amsterdam</a>
+            </li>
+            <li class="dest__overlay-item">
+              <a href="package" class="dest__overlay-link">Tuscany</a>
+            </li>
+            <a href="package" class="dest__overlay-btn">VIEW DESTINATION</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Asia -->
+    <div class="dest__item-flex">
+      <div class="dest__item abc dest__asia">
+        <img src="https://leloc90.github.io/loveTravel/assets/images/torii-gate.png" alt="">
+        <div class="dest__item-info">
+          <p class="dest__item-title">Asia</p>
+          <p class="dest__item-text">2 PACKAGES</p>
+        </div>
+        <div class="dest__overlay">
+          <h5>Packages</h5>
+          <ul class="dest__overlay-list">
+            <li class="dest__overlay-item">
+              <a href="package" class="dest__overlay-link">Hong Kong</a>
+            </li>
+            <li class="dest__overlay-item">
+              <a href="package" class="dest__overlay-link">Phuket</a>
+            </li>
+            <a href="package" class="dest__overlay-btn">VIEW DESTINATION</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- United States -->
+    <div class="dest__item-flex">
+      <div class="dest__item abc dest__usa">
+        <img src="https://leloc90.github.io/loveTravel/assets/images/golden-gate.png" alt="">
+        <div class="dest__item-info">
+          <p class="dest__item-title">United States</p>
+          <p class="dest__item-text">1 PACKAGES</p>
+        </div>
+        <div class="dest__overlay">
+          <h5>Packages</h5>
+          <ul class="dest__overlay-list">
+            <li class="dest__overlay-item">
+              <a href="package" class="dest__overlay-link">San Francisco</a>
+            </li>
+            <a href="package" class="dest__overlay-btn">VIEW DESTINATION</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </article>
+</section>
+      <ul class="social">
+        <li>
+          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="main">Home</a></li>
+        <li><a href="package">Packages</a></li>
+        <li><a href="destination">Destination</a></li>
+        <li><a href="contact">Contact Us</a></li>
+        <li><a href="about">About Us</a></li>
+      </ul>
+    </div>
+<script>
+    const menuToggle = document.querySelector(".toggle");
+const showcase = document.querySelector(".showcase");
+
+menuToggle.addEventListener("click", () => {
+  menuToggle.classList.toggle("active");
+  showcase.classList.toggle("active");
+});
+</script>
+</body>
+</html>
